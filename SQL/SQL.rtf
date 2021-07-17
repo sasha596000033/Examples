@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 HelveticaNeue;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red21\green23\blue25;\red27\green28\blue29;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c10980\c11765\c12941;\cssrgb\c14118\c14510\c14902;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 CREATE TABLE Teacher (\
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,\
+first_name VARCHAR(30) NOT NULL,\
+last_name VARCHAR(30) NOT NULL,\
+gender VARCHAR(50) NOT NULL ,\
+subject VARCHAR(50) NOT NULL\
+);\
+\
+CREATE TABLE Pupil(\
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,\
+  first_name VARCHAR(30) NOT NULL,\
+  last_name VARCHAR(30) NOT NULL,\
+  gender VARCHAR(50),\
+  class VARCHAR(50)\
+);\
+\
+CREATE TABLE Teacher_Pupil(\
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,\
+    teacher_id  INT(6) UNSIGNED,\
+    pupil_id INT(6) UNSIGNED,\
+    FOREIGN KEY (teacher_id) REFERENCES Teacher(id),\
+    FOREIGN KEY (pupil_id) REFERENCES Pupil(id)\
+\
+);\
+\
+\
+SELECT Teacher.* from teacher\
+JOIN Teacher_Pupil on Teacher_Pupil.teacher_id=Teacher.id\
+JOIN Pupil on Teacher_Pupil.pupil_id = Pupil.id\
+WHERE Pupil.first_name='
+\f1 \uc0\u4306 \u4312 \u4317 \u4320 \u4306 \u4312 
+\f0 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs30 \cf3 \cb4 \strokec3 \
+}
