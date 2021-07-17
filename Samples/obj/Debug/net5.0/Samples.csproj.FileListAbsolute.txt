@@ -1,0 +1,15 @@
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/Samples.deps.json
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/Samples.runtimeconfig.json
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/Samples.runtimeconfig.dev.json
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/Samples.dll
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/ref/Samples.dll
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/bin/Debug/net5.0/Samples.pdb
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.csprojAssemblyReference.cache
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.AssemblyInfoInputs.cache
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.AssemblyInfo.cs
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.csproj.CoreCompileInputs.cache
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.dll
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/ref/Samples.dll
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.pdb
+/Users/sabakoguashvili/RiderProjects/Samples/Samples/obj/Debug/net5.0/Samples.genruntimeconfig.cache
